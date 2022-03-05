@@ -10,11 +10,6 @@ var dynamicStyle = { color: "" };
 
 const now = new Date().getHours();
 
-/**
- *  check if value in now is between 9am and 6pm
- *  9am -> 9
- *  6pm -> 18
- */
 if (now >= 0 && now <= 12) {
   console.log("Good Morning");
   dynamicStyle.color = morningStyle;
